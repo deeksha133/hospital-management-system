@@ -34,3 +34,26 @@ Python, Flask, SQLite, HTML, CSS, Jinja2, Werkzeug, Gunicorn.
 ## Author
 
 Deeksha TM
+
+
+## Project Screenshots
+
+### Dashboard
+
+![MediCare Dashboard](docs/screenshots/dashboard.png)
+
+### Patient Management
+
+![Patient Management](docs/screenshots/patients.png)
+
+### Doctor Management
+
+![Doctor Management](docs/screenshots/doctors.png)
+
+### Appointment Booking
+
+![Appointment Booking](docs/screenshots/appointments.png)
+
+### Billing Management
+
+![Billing Management](docs/screenshots/billing.png)
