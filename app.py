@@ -42,6 +42,11 @@ def init_db():
     db.commit()
 
 
+# Initialize SQLite when Gunicorn imports the application on Render.
+with app.app_context():
+    init_db()
+
+
 def login_required(view):
     @wraps(view)
     def wrapped(**kwargs):
